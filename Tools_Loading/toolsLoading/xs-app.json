@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/toolsLoading/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/toolsLoading/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}

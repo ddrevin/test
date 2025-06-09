@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "toolsLoading",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": false,
+			"name": "hitachi.custom.plugins.toolsLoading.toolsLoading",
+			"propertyEditor": "hitachi.custom.plugins.toolsLoading.toolsLoading.builder.PropertyEditor",
+			"i18n": "hitachi.custom.plugins.toolsLoading.toolsLoading.i18n.i18n",
+            "productionProcessEnabled": true,
+            "productionProcessTitle": "toolsLoading",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION"]
+		}   
+	]
+}

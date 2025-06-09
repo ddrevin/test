@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/toolsAvailability/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/toolsAvailability/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}

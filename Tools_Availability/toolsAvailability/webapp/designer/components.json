@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "toolsAvailability",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": false,
+			"name": "hitachi.custom.plugins.toolsAvailability.toolsAvailability",
+			"propertyEditor": "hitachi.custom.plugins.toolsAvailability.toolsAvailability.builder.PropertyEditor",
+			"i18n": "hitachi.custom.plugins.toolsAvailability.toolsAvailability.i18n.i18n",
+            "productionProcessEnabled": true,
+           "productionProcessTitle": "Tools Availability",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION"]
+		}   
+	]
+}
